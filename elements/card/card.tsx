@@ -21,7 +21,7 @@ export const Card: React.FC<CardProps> = ({
 
   return (
     <div
-      className={`w-full h-[550px] md:h-[250px] flex flex-col md:flex-row items-center md:items-start justify-center gap-8 max-w-[1200px]   ${
+      className={`w-full h-[600px] md:h-[250px] flex flex-col md:flex-row items-center md:items-start justify-center gap-8 max-w-[1200px]   ${
         id % 2 === 0 ? "md:flex-row-reverse" : ""
       }`}
       key={id}
