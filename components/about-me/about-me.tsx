@@ -12,13 +12,28 @@ const AboutMeCardSection = () => {
       ̵
       <div className="w-72 h-72 absolute z-10 bg-primary rounded-full -bottom-10 -left-10 opacity-20 blur-3xl"></div>
       <div className="w-72 h-72 absolute z-10 bg-green-500 rounded-full -right-10 -top-10 opacity-20 blur-3xl"></div>
-      <div className="flex flex-wrap items-center justify-center p-4 w-full h-screen max-w-[1200px] cursor-pointer relative">
+      <div className="w-full h-screen p-4" >
+  <div
+              className="relative m-4 w-full max-w-[1200px] h-screen md:w-28 md:h-28 group perspective-500 cursor-pointer"
+            >
+              <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-violet-200/20 rounded-xl backdrop-blur-lg shadow-xl transform transition-all duration-300 hover:scale-102">
+                <div className="absolute inset-[2px] bg-white/10 rounded-xl border border-white/20 z-10"></div>
+                <div className="relative flex items-center justify-center w-full h-full p-4 z-20">
+
+                  <p>KJhlwejh</p>
+                 
+                </div>
+              </div>
+            </div>
+      </div>
+    
+      {/* <div className="flex flex-wrap items-center justify-center p-4 w-full h-screen max-w-[1200px] cursor-pointer relative">
         <div className="w-full h-full flex flex-row items-center justify-center">
           <div className="relative m-4 w-full h-full group perspective-500">
             <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-violet-200/20 rounded-xl backdrop-blur-lg shadow-xl transform transition-all duration-300 hover:scale-105">
               <div className="absolute inset-[2px] bg-white/10 rounded-xl border border-white/20 z-10"></div>
               <div className="relative flex  flex-col  items-center justify-center w-full h-full p-2 md:p-8 z-20">
-                <div className="w-full md:w-[50%] h-full  flex-col items-center justify-center hidden md:flex my-5">
+                <div className="w-full md:w-[50%] h-full  flex-col items-center justify-center hidden md:flex">
                   <Image
                     src={suryaImage}
                     width={350}
@@ -53,7 +68,7 @@ const AboutMeCardSection = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

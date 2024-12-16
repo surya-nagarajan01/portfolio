@@ -40,8 +40,8 @@ function ScrollSection() {
   return (
     <section className="overflow-hidden">
       <SkillSection />
-      <ExperienceSection />
-      <AboutMeCardSection />
+     <ExperienceSection />
+      {/* <AboutMeCardSection /> */} 
     </section>
     // <section className="scroll-section-outer overflow-hidden">
     //   <div ref={triggerRef}>
