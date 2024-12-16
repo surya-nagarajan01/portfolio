@@ -38,21 +38,23 @@ function ScrollSection() {
   }, []);
 
   return (
-    <section className="scroll-section-outer overflow-hidden">
-      <div ref={triggerRef}>
-        <div ref={sectionRef} className="scroll-section-inner">
-          <div className="scroll-section">
-            <SkillSection />
-          </div>
-          <div className="scroll-section">
-            <ExperienceSection />
-          </div>
-          <div className="scroll-section">
-            <AboutMeCardSection />
-          </div>
-        </div>
-      </div>
+    <section className="overflow-hidden">
+      <SkillSection />
+      <ExperienceSection />
+      <AboutMeCardSection />
     </section>
+    // <section className="scroll-section-outer overflow-hidden">
+    //   <div ref={triggerRef}>
+    //     <div ref={sectionRef} className="scroll-section-inner">
+    //       <div className="scroll-section">
+    //       </div>
+    //       <div className="scroll-section">
+    //       </div>
+    //       <div className="scroll-section">
+    //       </div>
+    //     </div>
+    //   </div>
+    // </section>
   );
 }
 

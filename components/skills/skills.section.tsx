@@ -15,7 +15,7 @@ const SkillSection = () => {
       <div className="w-72 h-72 absolute z-10 bg-green-500 rounded-full -right-10 -top-10 opacity-20 blur-3xl"></div>
 
       <div
-        className="flex flex-wrap items-center justify-center p-4  md:w-[70%] md:h-[50%] cursor-pointer relative"
+        className="flex flex-wrap items-center justify-center p-4 h-screen max-w-[1200px] cursor-pointer relative"
       >
         {skills_constant.map((item, index) => {
           return (

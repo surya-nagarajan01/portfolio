@@ -12,13 +12,13 @@ const AboutMeCardSection = () => {
       ̵
       <div className="w-72 h-72 absolute z-10 bg-primary rounded-full -bottom-10 -left-10 opacity-20 blur-3xl"></div>
       <div className="w-72 h-72 absolute z-10 bg-green-500 rounded-full -right-10 -top-10 opacity-20 blur-3xl"></div>
-      <div className="flex flex-wrap items-center justify-center p-4 w-full h-[90%]  md:w-[70%] md:h-[70%] cursor-pointer relative">
+      <div className="flex flex-wrap items-center justify-center p-4 w-full h-screen max-w-[1200px] cursor-pointer relative">
         <div className="w-full h-full flex flex-row items-center justify-center">
           <div className="relative m-4 w-full h-full group perspective-500">
             <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-violet-200/20 rounded-xl backdrop-blur-lg shadow-xl transform transition-all duration-300 hover:scale-105">
               <div className="absolute inset-[2px] bg-white/10 rounded-xl border border-white/20 z-10"></div>
-              <div className="relative flex  flex-col  items-center justify-center w-full h-full p-2 md:p-4 z-20">
-                <div className="w-full md:w-[50%] h-full  flex-col items-center justify-center hidden md:flex">
+              <div className="relative flex  flex-col  items-center justify-center w-full h-full p-2 md:p-8 z-20">
+                <div className="w-full md:w-[50%] h-full  flex-col items-center justify-center hidden md:flex my-5">
                   <Image
                     src={suryaImage}
                     width={350}
@@ -27,8 +27,7 @@ const AboutMeCardSection = () => {
                     alt="hero-image"
                   ></Image>
                 </div>
-
-                <div className="w-full md:w-[50%] h-full flex flex-col items-center justify-center  md:hidden">
+                <div className="w-full md:w-[50%] h-full flex flex-col items-center justify-center  md:hidden py-5">
                   <Image
                     src={suryaImage}
                     width={250}
@@ -37,7 +36,7 @@ const AboutMeCardSection = () => {
                     alt="hero-image"
                   ></Image>
                 </div>
-                <div className="w-full  px-2 md:px-16 h-full  flex flex-col text-text items-start justify-center">
+                <div className="w-full  px-2 md:px-16 h-full  flex flex-col text-text items-start justify-center py-4">
                   <h1 className="w-full text-l md:text-xl text-white font-medium text-center">
                     I have experience building scalable web and mobile
                     applications , with a strong focus on writing clean code and
