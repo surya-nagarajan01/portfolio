@@ -24,5 +24,6 @@ export {default as linkedinIcon} from "./linkedin.svg"
 export {default as emailIcon} from "./gmail.svg"
 export {default as LeetcodeIcon} from "./leetcode.svg"
 export {default as deliveryIcon} from "./delivery.svg"
+export { default as resumeIcon } from "./resume.svg";
 
 

@@ -3,7 +3,7 @@ import { domaincerIcon, HyringIcon } from "@/assets/skill/_index";
 const card_constant = [
   {
     icon: HyringIcon,
-    heading: "Development Team Lead & CTO",
+    heading: "Development Team Lead",
     content:
       "Built an AI-powered screener platform with event-driven architecture, TTS/STT, WebSocket, queue optimization, video optimization.",
     startDate: "July 2024",
